@@ -14,17 +14,16 @@ body {
 }
 
 
-/* Контейнер */
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 24px 20px;
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
   }
   
-  .logo {
+  .site-logo {
       font-family: "Raleway", sans-serif;
       font-weight: 700;
       font-size: 18px;
@@ -32,41 +31,40 @@ body {
       letter-spacing: 0.03em;
       text-transform: uppercase;
       color: #2e2f42;
-      /* STUDIO */
       text-decoration: none;
   }
 
-  .logo-accent {
+  .site-logo-accent {
       color: #4d5ae5;
-      /* WEB */
   }
   
   
-  /* Навігація */
+  
+  
   .nav-list {
-    display: flex;
-    gap: 40px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+      display: flex;
+      gap: 40px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
   }
-  
+
   .nav-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-decoration: none;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: #2e2f42;
+      text-decoration: none;
   }
-  
+
   .nav-link:hover,
   .nav-link:focus {
-    color: #404bbf;
+      color: #404bbf;
   }
   
   /* Контакти */
-  .contact-info {
+  .site-address {
     font-style: normal;
   }
   
@@ -96,7 +94,6 @@ body {
       color: #fff;
       text-align: center;
       padding-top: 188px;
-      /* 72px header + 116px до тексту */
       padding-bottom: 188px;
       margin-bottom: 100px;
       max-width: 1440px;
@@ -109,15 +106,14 @@ body {
       font-weight: 700;
       font-size: 56px;
       line-height: 1.07;
-      /* 60px / 56px ≈ 1.07 */
-      letter-spacing: -0.02em;
+      letter-spacing: 0.02em;
       margin-bottom: 48px;
       color: #fff;
   }
 
   .button {
       font-family: "Roboto", sans-serif;
-      background-color: #4d5ae5;
+      background-color: #404BBF;
       color: #fff;
       padding: 16px 32px;
       border: none;
@@ -159,7 +155,7 @@ body {
 
   .features-subtitle {
       font-family: 'Roboto', sans-serif;
-      font-weight: 700;
+      font-weight: 500;
       font-size: 20px;
       line-height: 1.2;
       letter-spacing: 0.02em;
@@ -336,25 +332,39 @@ body {
       margin: 0;
   }
   .footer {
+      width: 100%;
       height: 312px;
       background-color: #2E2F42;
       box-sizing: border-box;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding: 40px 15px;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 40px 0;
       border-top: 1px solid #e7e9fc;
       margin-top: 20px;
   }
 
+  .footer-container {
+      width: 100%;
+      max-width: 1440px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+  }
+  
   .footer-content {
       width: 264px;
+      height: 112px;
       margin-left: 156px;
+      /* Відступ від лівого краю футера */
       display: flex;
       flex-direction: column;
       gap: 16px;
   }
-
+  .footer .container {
+      justify-content: flex-start;
+  }
   .footer .logo {
       font-family: 'Raleway', sans-serif;
       font-weight: 700;
