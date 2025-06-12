@@ -45,9 +45,8 @@ body {
     align-items: center;
     gap: 40px;
 }
-.section {
-    padding: 100px 0;
-}
+
+
 .nav-link,
 .contact-link {
     font-weight: 500;
