@@ -218,9 +218,6 @@ body {
       color: #2e2f42;
 
   }
-
-  
-
 .portfolio-list {
     justify-content: center;
     margin: 0;
@@ -239,6 +236,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
+    background-color: #2e2f42;
 }
 
 .portfolio-description {
@@ -248,7 +246,9 @@ body {
     color: #434455;
     text-align: center;
 }
-
+.footer {
+    background-color: #2e2f42;
+}
 .footer-container {
     background-color: #2e2f42; 
 }
