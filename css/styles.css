@@ -8,17 +8,6 @@ body {
     margin: 0 auto;
     }
 
-.header-container {
-    
-    justify-content: space-between;
-}
-
-.container {
-  
-    justify-content: space-between;
-    max-width: 1440px;
-    margin: 0 auto;
-  }
   
 .logo {
     font-family: "Raleway", sans-serif;
@@ -236,7 +225,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
-    background-color: #2e2f42;
+    color: #2e2f42;
 }
 
 .portfolio-description {
@@ -248,9 +237,6 @@ body {
 }
 .footer {
     background-color: #2e2f42;
-}
-.footer-container {
-    background-color: #2e2f42; 
 }
 
 .footer-logo {
